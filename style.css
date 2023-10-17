@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    outline: none;
+}
+.topnavbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.topnavbar p{
+    margin-left: 15px;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+.topnavbar .icons{
+    margin-left: 15px;
+    margin-top: 0%;
+}
+.topnavbar .icons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.topnavbar a:hover{
+    color: blue;
+}
+/* navabr */
+.navbar-nav{
+margin-left: 20px;
+}
+.nav-item .nav-link{
+    margin-left: 100px;
+}
+#searchinput{
+    border: none;
+    border-radius: 50px;
+}
+#search{
+    border-radius: 50px;
+}
+#cardid{
+    margin-top: 20px;
+}
+#id1{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#id2{
+    margin-top: 20px;
+}
+#hower1:hover{
+    background-color:green;
+}
+#productscards .card{
+    height: 440px;
+    width: 330px;
+}
+#productscards .card img{
+    height: 250px;
+    width: 330px;
+}
+#footer{
+    padding: 0 0 3px 0;
+    color:#fff;
+    font-size: 14px;
+    background-color: #3b71ca;
+    margin-top: 100px;
+}
+#footer .footer-top{
+    padding:  60px 0 30px 0;
+    background-color: #3b71ca;
+    color: #fff;
+}
+#footer .footer-top .footer-contact h3{
+   color: #ffc800;
+}
+#footer .footer-top .footer-contact p{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+#footer .footer-top .footer-contact{
+    margin-top: 30px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#footer .footer-top .footer-links h4{
+    color: #ffc800;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding:10px 0;
+    align-items: center;
+    display: flex;
+}
+#footer .footer-top .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    font-weight: bold;
+}
+#footer .footer-top .footer-links ul li a:hover{
+    background-color: #14a414;
+}
+#footer .footer-top .social a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 35px;
+    transition: 0.5s linear;
+}
+#footer .footer-top .social a:hover{
+    background-color: #14a414;
+    color: #fff;
+}
